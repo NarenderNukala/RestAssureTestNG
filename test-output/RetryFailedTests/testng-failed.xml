@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [RetryFailedTests]">
+  <listeners>
+    <listener class-name="reTryMechanism.AnnotationTransformer"/>
+  </listeners>
+  <test thread-count="5" name="RetryMulitple(failed)">
+    <classes>
+      <class name="reTryMechanism.LoginPage">
+        <methods>
+          <include name="setUP"/>
+          <include name="verifyLoginPage"/>
+          <include name="extentFail"/>
+          <include name="navigateApp"/>
+          <include name="closeDriver"/>
+          <include name="verifyLogin"/>
+        </methods>
+      </class> <!-- reTryMechanism.LoginPage -->
+    </classes>
+  </test> <!-- RetryMulitple(failed) -->
+</suite> <!-- Failed suite [RetryFailedTests] -->
