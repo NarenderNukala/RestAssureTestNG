@@ -34,5 +34,6 @@
 	<classpathentry kind="lib" path="F:/Software/rest-assured-4.0.0-dist/rest-assured-4.0.0-deps/jaxb-osgi-2.2.10.jar"/>
 	<classpathentry kind="lib" path="F:/Software/rest-assured-4.0.0-dist/rest-assured-4.0.0-deps/org.apache.sling.javax.activation-0.1.0.jar"/>
 	<classpathentry kind="lib" path="F:/Software/rest-assured-4.0.0-dist/rest-assured-4.0.0-deps/tagsoup-1.2.1.jar"/>
+	<classpathentry kind="lib" path="F:/Software/rest-assured-4.0.0-dist/json-simple-1.1.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

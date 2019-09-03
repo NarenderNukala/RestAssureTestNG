@@ -1,3 +1,4 @@
+package restGetValidations;
 import org.testng.annotations.Test;
 
 public class TestNGExample {

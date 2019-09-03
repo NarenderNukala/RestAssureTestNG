@@ -1,3 +1,4 @@
+package restGetValidations;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -5,7 +6,7 @@ import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
-public class ValidatingResponse {
+public class ValidatingResponseStatus {
 	
 	public RequestSpecification httpRequest;
 	public Response response;
@@ -17,7 +18,7 @@ public class ValidatingResponse {
 		RestAssured.baseURI = "http://restapi.demoqa.com/utilities/weather/city";
 		httpRequest = RestAssured.given();
 	}
-	
+		
 	@Test
 	public void ValidSuccessStatusCode()
 	{
