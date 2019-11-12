@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1557" started-at="2019-07-20T01:04:45Z" finished-at="2019-07-20T01:04:47Z">
+  <suite name="Default suite" duration-ms="1531" started-at="2019-09-03T04:41:19Z" finished-at="2019-09-03T04:41:20Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="1557" started-at="2019-07-20T01:04:45Z" finished-at="2019-07-20T01:04:47Z">
-      <class name="authenticationEx.AuthenticationFail">
-        <test-method status="PASS" signature="AuthenticationBasics()[pri:0, instance:authenticationEx.AuthenticationFail@7a187f14]" name="AuthenticationBasics" duration-ms="1540" started-at="2019-07-20T01:04:45Z" finished-at="2019-07-20T01:04:47Z">
+    <test name="Default test" duration-ms="1531" started-at="2019-09-03T04:41:19Z" finished-at="2019-09-03T04:41:20Z">
+      <class name="restGetValidations.WeatherAPI">
+        <test-method status="PASS" signature="GetWeatherDetails()[pri:0, instance:restGetValidations.WeatherAPI@7a187f14]" name="GetWeatherDetails" duration-ms="1515" started-at="2019-09-03T04:41:19Z" finished-at="2019-09-03T04:41:20Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AuthenticationBasics -->
-      </class> <!-- authenticationEx.AuthenticationFail -->
+        </test-method> <!-- GetWeatherDetails -->
+      </class> <!-- restGetValidations.WeatherAPI -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
