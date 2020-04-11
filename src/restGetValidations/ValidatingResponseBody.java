@@ -22,6 +22,7 @@ public class ValidatingResponseBody {
 		response = httpRequest.get("/Hyderabad");
 	}
 	
+	
 	@Test
 	public void PrintResponseBody()
 	{
@@ -37,6 +38,5 @@ public class ValidatingResponseBody {
 		System.out.println("Humidity : " + jsonEvaluator.get("Humidity"));
 		System.out.println("WindDirectionDegree : " + jsonEvaluator.get("WindDirectionDegree"));
 	}
-	
 	
 }
